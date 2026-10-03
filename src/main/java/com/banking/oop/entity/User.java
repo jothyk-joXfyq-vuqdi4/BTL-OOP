@@ -1,4 +1,4 @@
-package com.banking.oop.domain.user;
+package com.banking.oop.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

@@ -1,4 +1,4 @@
-package com.banking.oop.domain.user.dto;
+package com.banking.oop.dto;
 
 import lombok.Data;
 import java.time.LocalDateTime;

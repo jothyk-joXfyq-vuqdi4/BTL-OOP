@@ -1,5 +1,6 @@
-package com.banking.oop.domain.user;
+package com.banking.oop.repository;
 
+import com.banking.oop.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 import java.util.Optional;

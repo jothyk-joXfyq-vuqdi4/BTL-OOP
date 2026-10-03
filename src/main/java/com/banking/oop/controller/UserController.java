@@ -1,7 +1,8 @@
-package com.banking.oop.domain.user;
+package com.banking.oop.controller;
 
-import com.banking.oop.domain.user.dto.RegisterRequest;
-import com.banking.oop.domain.user.dto.UserResponse;
+import com.banking.oop.service.UserService;
+import com.banking.oop.dto.RegisterRequest;
+import com.banking.oop.dto.UserResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

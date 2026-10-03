@@ -1,7 +1,9 @@
-package com.banking.oop.domain.user;
+package com.banking.oop.service;
 
-import com.banking.oop.domain.user.dto.RegisterRequest;
-import com.banking.oop.domain.user.dto.UserResponse;
+import com.banking.oop.entity.User;
+import com.banking.oop.repository.UserRepository;
+import com.banking.oop.dto.RegisterRequest;
+import com.banking.oop.dto.UserResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
